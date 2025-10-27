@@ -34,93 +34,217 @@
       }
     </style>
   </head>
-  <body class="poppins-regular">
-    <!-- header section start -->
-     <header>
-        <!-- navigation secton start -->
-         <nav class=" px-4 md:px-0 mt-5 md:mt-12  md:w-10/12 mx-auto flex justify-between">
-            <!-- logo and Company name section -->
-            <div class="flex gap-4 items-center">
-                <img src="images/logo2.png" alt="">
-                <h1 class="text-4xl font-extrabold eb-font">Justice</h1>
+  <body class="poppins-regular bg-white">
+    <!-- header section Start -->
+    <header>
+      <nav
+        class="px-4 md:px-0 md:w-10/12 mx-auto flex items-center justify-between mt-5"
+      >
+        <div class="flex items-center gap-4">
+          <img class="md:w-16" src="images/logo2.png" alt="Web-logo" />
+          <h1 class="font-semibold text-2xl md:text-5xl eb-font">Justice</h1>
+        </div>
+        <div class="hidden md:flex gap-4 font-semibold">
+          <a href="index.html">Home</a>
+          <a href="index.html">Services ></a>
+          <a href="index.html">Cases ></a>
+          <a href="index.html">Blog ></a>
+          <a href="index.html">Contact Us ></a>
+        </div>
+        <button class="btn btn-warning btn-sm md:btn-md">
+          Free Consultation
+        </button>
+      </nav>
+      <!-- Banner section -->
+      <section class="px-4 md:px-0 md:w-10/12 mx-auto mt-8 md:mt-10">
+        <div class="bg-black rounded-2xl relative">
+          <img
+            class="rounded-2xl w-full opacity-50"
+            src="images/banner.png"
+            alt="Banner-Image"
+          />
+          <div
+            class="absolute inset-0 flex flex-col items-center justify-center text-center text-white px-4 max-w-2xl mx-auto"
+          >
+            <h1 class="font-bold text-2xl md:text-7xl eb-font">
+              We provide Effective <br />
+              Legal Solutions
+            </h1>
+            <p class="text-gray-300 mt-2 md:mt-8 text-[.6rem] md:text-[1rem]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+              laboriosam quis corrupti atque obcaecati, earum quidem quisquam
+              reprehenderit veniam doloremque.
+            </p>
+            <div class="mt-4 md:mt-8 flex items-center gap-2">
+              <input
+                type="text"
+                placeholder="Search your services"
+                class="input input-warning input-sm md:input-md md:w-80"
+              />
+              <button
+                class="font-bold md:text-xl btn btn-warning btn-sm md:btn-md"
+              >
+                Search
+              </button>
             </div>
-            <!-- Menu ber section -->
-             <div>
-                <div class="breadcrumbs text-lg md:flex hidden">
-                    <ul>
-                      <li>
-                        <a href="#">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 24 24"
-                            class="h-4 w-4 stroke-current">
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z"></path>
-                          </svg>
-                          Home
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          Services
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          Case
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          Blog
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                            <span class="inline-flex items-center gap-2">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
-                                  </svg>                              
-                              Contact Us
-                            </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-             </div>
-             <!-- Button -->
-             <a class="md:flex hidden" href="#"><button class="btn bg-[#B68C5A] px-8 text-white font-semibold ">Free Consultation</button></a>
-             <!-- hamber icon -->
-             <div class="md:hidden flex items-center">
-                <a href="#">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-10 text-[#B68C5A]">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                      </svg> 
-                </a>                 
-             </div>
-         </nav>
-        <!-- navigation secton closed -->
-         <!-- Banner section start -->
-          <section class="px-4 md:px-0 md:w-10/12 mx-auto">
-            <div class="mt-6 md:mt-12 relative">
-                <img class="w-full opacity-80" src="images/banner.png" alt="Banner-Image">
-                <!-- banner-text section -->
-                <div class="absolute md:top-[25%] top-5 left-7 md:left-[26%]">
-                    <h1 class="font-extrabold md:text-7xl text-center eb-font text-white">We Provide Effective <br> Legal Solutions</h1>
-                    <p class="md:text-[1rem] text-[.5rem] text-center text-gray-400 md:mt-6">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
-                    <span class="inline flex gap-5 max-w-xl items-center md:px-5 md:mt-8 ml-10   mx-auto">
-                        <input class="input w-36 h-6 md:h-12 pl md:w-full" type="text" name="text" placeholder="Search your services....">
-                    <a href="#"><button class="bg-[#B68C5A]  btn text-white font-semibold">Search</button></a>
-                    </span>
-                </div>
-            </div>
-          </section>
-         <!-- Banner section closed -->
-     </header>
+          </div>
+        </div>
+      </section>
+    </header>
     <!-- header section Closed -->
+    <!-- main section start  -->
+    <main>
+      <!-- section 1 -->
+      <section class="mt-14 md:mt-32  w-10/12 mx-auto">
+        <h1 class="font-bold text-3xl md:text-5xl text-center eb-font">
+          The Legal Practice Area
+        </h1>
+        <p class="text-gray-500 mt-5 text-center max-w-3xl mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+          libero necessitatibus ea vel repellat numquam officiis quas aliquam
+          labore ab.
+        </p>
+        <!-- cards -->
+        <div class="mt-10 md:mt-16 grid md:grid-cols-3">
+          <div class="p-5 md:p-8 border-b-2 md:border-r-2">
+            <img class="mx-auto  w-20" src="images/business.png" alt="Card-logo">
+            <h1 class="eb-font mt-3 font-bold text-3xl md:text-4xl text-center">Business Law</h1>
+            <p class="max-w-2xl text-center mx-auto mt-6 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim sed numquam deserunt et nihil sequi quia eligendi optio molestias.</p>
+            <img class="mx-auto mt-8 md:w-16" src="images/Frame.png" alt="Arrow-icon">
+            </svg>
+            </p>
+          </div>
+          <div class="p-5 md:p-8 border-b-2 md:border-r-2">
+            <img class="mx-auto  w-20" src="images/criminal.png" alt="Card-logo">
+            <h1 class="eb-font mt-3 font-bold text-3xl md:text-4xl text-center">Criminal Law</h1>
+            <p class="max-w-2xl text-center mx-auto mt-6 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim sed numquam deserunt et nihil sequi quia eligendi optio molestias.</p>
+            <img class="mx-auto mt-8 md:w-16" src="images/Frame.png" alt="Arrow-icon">
+          </div>
+          <div class="p-5 md:p-8 border-b-2">
+            <img class="mx-auto  w-20" src="images/child.png" alt="Card-logo">
+            <h1 class="eb-font mt-3 font-bold text-3xl md:text-4xl text-center">Child Support</h1>
+            <p class="max-w-2xl text-center mx-auto mt-6 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim sed numquam deserunt et nihil sequi quia eligendi optio molestias.</p>
+            <img class="mx-auto mt-8 md:w-16" src="images/Frame.png" alt="Arrow-icon">
+          </div>
+          <div class="p-5 md:p-8 border-b-2 md:border-b-0  md:border-r-2">
+            <img class="mx-auto  w-20" src="images/education.png" alt="Card-logo">
+            <h1 class="eb-font mt-3 font-bold text-3xl md:text-4xl text-center">Education Law</h1>
+            <p class="max-w-2xl text-center mx-auto mt-6 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim sed numquam deserunt et nihil sequi quia eligendi optio molestias.</p>
+            <img class="mx-auto mt-8 md:w-16" src="images/Frame.png" alt="Arrow-icon">
+          </div>
+          <div class="p-5 md:p-8 md:border-b-0 border-b-2 md:border-r-2">
+            <img class="mx-auto  w-28" src="images/divorce.png" alt="Card-logo">
+            <h1 class="eb-font mt-3 font-bold text-3xl md:text-4xl text-center">Divorce Law</h1>
+            <p class="max-w-2xl text-center mx-auto mt-6 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim sed numquam deserunt et nihil sequi quia eligendi optio molestias.</p>
+            <img class="mx-auto mt-8 md:w-16" src="images/Frame.png" alt="Arrow-icon">
+          </div>
+          <div class="p-5 md:p-8">
+            <img class="mx-auto  w-20" src="images/tax.png" alt="Card-logo">
+            <h1 class="eb-font mt-3 font-bold text-3xl md:text-4xl text-center">Tax Law</h1>
+            <p class="max-w-2xl text-center mx-auto mt-6 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe enim sed numquam deserunt et nihil sequi quia eligendi optio molestias.</p>
+            <img class="mx-auto mt-8 md:w-16" src="images/Frame.png" alt="Arrow-icon">
+          </div>
+        </div>
+      </section>
+      <!-- Section 2 -->
+       <section class="mt-14 md:mt-32  w-10/12 mx-auto">
+        <h1 class="font-bold text-3xl md:text-5xl text-center eb-font">
+          The Legal Practice Area
+        </h1>
+        <p class="text-gray-500 m-5 text-center max-w-3xl mx-auto">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+          libero necessitatibus ea vel repellat numquam officiis quas aliquam
+          labore ab.
+        </p>
+        <!-- Slider section -->
+        <div class="carousel w-full mt-20">
+          <div id="slide1" class="carousel-item relative w-full">
+            <div class="relative inset-0 bg-black">
+              <img class="opacity-70 blur-sm" src="images/slider-1.jpg" alt="Slide-picture">
+              <div class="absolute inset-0 flex">                
+                <div class="card-body my-auto md:gap-8">
+                  <div class="avatar avatar-online">
+                    <div class="w-14 mx-auto md:w-24 rounded-full ring ring-ofset-2 ring-primary">
+                      <img src="images/tanvir.png" />
+                    </div>
+                  </div>
+                  <h1 class="text-xl md:text-4xl h-2 text-center  md:font-bold font-semibold text-white">Tanvir Hasan</h1>
+                  <p class="text-white text-center md:font-semibold md:text-xl">Banker</p>
+                  <p class="text-center text-xs md:mt-6 md:text-xl max-w-4xl mx-auto text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure tempore facilis eveniet quam magnam a unde molestias hic odit assumenda veritatis exercitationem error, fugit neque inventore numquam minus quidem autem est! Possimus, expedita libero.</p>
+                </div>
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide2" class="carousel-item relative w-full">
+            <div class="relative inset-0 bg-black">
+              <img class="opacity-70 blur-sm" src="images/slider-2.jpg" alt="Slide-picture">
+              <div class="absolute inset-0 flex">                
+                <div class="card-body my-auto md:gap-8">
+                  <div class="avatar avatar-online">
+                    <div class="w-14 mx-auto md:w-24 rounded-full ring ring-ofset-2 ring-primary">
+                      <img src="images/tanvir.png" />
+                    </div>
+                  </div>
+                  <h1 class="text-xl md:text-4xl text-center h-1 md:font-bold font-semibold text-white">Tanvir Hasan</h1>
+                  <p class="text-white text-center md:font-semibold md:text-xl">Farmer</p>
+                  <p class="text-center text-xs md:mt-6 md:text-xl max-w-4xl mx-auto text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure tempore facilis eveniet quam magnam a unde molestias hic odit assumenda veritatis exercitationem error, fugit neque inventore numquam minus quidem autem est! Possimus, expedita libero.</p>
+                </div>
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide3" class="carousel-item relative w-full">
+            <div class="relative inset-0 bg-black">
+              <img class="opacity-70 blur-sm" src="images/slider-3.jpg" alt="Slide-picture">
+              <div class="absolute inset-0 flex">                
+                <div class="card-body my-auto md:gap-8">
+                  <div class="avatar avatar-online">
+                    <div class="w-14 mx-auto md:w-24 rounded-full ring ring-ofset-2 ring-primary">
+                      <img src="images/tanvir.png" />
+                    </div>
+                  </div>
+                  <h1 class="text-xl md:text-4xl text-center h-1 md:font-bold font-semibold text-white">Tanvir Hasan</h1>
+                  <p class="text-white text-center md:font-semibold md:text-xl">House Wife</p>
+                  <p class="text-center text-xs md:mt-6 md:text-xl max-w-4xl mx-auto text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure tempore facilis eveniet quam magnam a unde molestias hic odit assumenda veritatis exercitationem error, fugit neque inventore numquam minus quidem autem est! Possimus, expedita libero.</p>
+                </div>
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" class="btn btn-circle">❮</a>
+              <a href="#slide4" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+          <div id="slide4" class="carousel-item relative w-full">
+           <div class="relative inset-0 bg-black">
+              <img class="opacity-70 blur-sm" src="images/slider-1.jpg" alt="Slide-picture">
+              <div class="absolute inset-0 flex">                
+                <div class="card-body my-auto md:gap-8">
+                  <div class="avatar avatar-online">
+                    <div class="w-14 mx-auto md:w-24 rounded-full ring ring-ofset-2 ring-primary">
+                      <img src="images/tanvir.png" />
+                    </div>
+                  </div>
+                  <h1 class="text-xl md:text-4xl text-center h-1 md:font-bold font-semibold text-white">Tanvir Hasan</h1>
+                  <p class="text-white text-center md:font-semibold md:text-xl">Web Developer</p>
+                  <p class="text-center text-xs md:mt-6 md:text-xl max-w-4xl mx-auto text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure tempore facilis eveniet quam magnam a unde molestias hic odit assumenda veritatis exercitationem error, fugit neque inventore numquam minus quidem autem est! Possimus, expedita libero.</p>
+                </div>
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" class="btn btn-circle">❮</a>
+              <a href="#slide1" class="btn btn-circle">❯</a>
+            </div>
+          </div>
+        </div>
+       </section>
+    </main>
+    <!-- main section closed -->
   </body>
 </html>
